@@ -1,0 +1,6 @@
+/test
+.travis
+LICENSE
+/node_modules
+.gitignore
+.github
