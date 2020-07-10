@@ -1,14 +1,10 @@
 {
-  "name": "@miladezzat/query-serialize",
-  "version": "1.3.1",
+  "name": "query-serialize",
+  "version": "2.0.0",
   "description": "this is a package for query serialzed",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./test/ --exit --recursive --timeout=60000"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "javascript",
