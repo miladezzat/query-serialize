@@ -4,7 +4,8 @@
   "description": "this is a package for query serialzed",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test/ --exit --recursive --timeout=60000"
+    "test": "./node_modules/mocha/bin/mocha ./test/ --exit --recursive --timeout=60000",
+    "depcheck": "./node_modules/.bin/npm-check"
   },
   "keywords": [
     "javascript",
@@ -35,5 +36,8 @@
     "lodash": "^4.17.19",
     "mocha": "^8.0.1",
     "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "npm-check": "^5.9.2"
   }
 }
