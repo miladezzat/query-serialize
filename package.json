@@ -58,5 +58,8 @@
   "bugs": {
     "url": "https://github.com/miladezzat/query-serialize/issues"
   },
-  "homepage": "https://github.com/miladezzat/query-serialize#readme"
+  "homepage": "https://github.com/miladezzat/query-serialize#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
