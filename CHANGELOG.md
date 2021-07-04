@@ -1,3 +1,9 @@
+#### 3.0.2 (2021-07-04)
+
+##### Chores
+
+*  🤖 publish on github ([51d0f0ba](https://github.com/miladezzat/query-serialize/commit/51d0f0bab962cce312143e4853c9872ba5ccdad0))
+
 #### 3.0.1 (2021-07-04)
 
 ##### Chores
