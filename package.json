@@ -1,6 +1,6 @@
 {
   "name": "query-serialize",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "this is a package for query serialzed",
   "main": "index.js",
   "scripts": {
