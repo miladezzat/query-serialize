@@ -4,19 +4,20 @@
 [![GitHub version](https://badge.fury.io/gh/miladezzat%2Fquery-serialize.svg)](https://badge.fury.io/gh/miladezzat%2Fquery-serialize)
 
 ## install 
-```
+```js
     npm i query-serialize --save
+    // Or
     yarn add query-serialize
 ```
 ## usage
-```
+```js
     const serialize = require("query-serialize");
     //or
     import serialize from "query-serialize";
 
     app.use(serialize);
-    //or
+    // Or
     app.get('/', serialize, (req, res, next)=>{
         //console.log(req.conditions)
-    })
+    });
 ```
