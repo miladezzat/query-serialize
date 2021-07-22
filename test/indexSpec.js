@@ -14,16 +14,16 @@ describe('Get /', () => {
   it('return success with no quey sent', () => {
     request(app)
       .get('/')
+      .expect(200)
       .then((response) => {
-        expect(200);
         expect(typeof response.body).to.be.equal('object');
       });
   });
   it('return success with quey sent', () => {
     request(app)
       .get('/?text=hello&limit=5&page=1&status=true')
+      .expect(200)
       .then((response) => {
-        expect(200);
         expect(response.body).to.be.an('object').and.have
           .keys(['$and']);
         const { body } = response;
